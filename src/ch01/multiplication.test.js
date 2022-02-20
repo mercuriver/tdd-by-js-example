@@ -1,3 +1,5 @@
+import Dallar from './multiplication';
+
 test('$5 * 2 = $10', () => {
   const five = new Dallar(5);
   five.times(2);
